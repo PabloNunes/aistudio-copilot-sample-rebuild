@@ -140,7 +140,7 @@ This will run the tests named `src/test_copilot_<implementation>.py` using the `
 
 To deploy one of the implementations to an online endpoint, use:
 ```bash
-python src/run.py --deploy
+python src/run.py --deploy --deployment-name DEPLOYMENT_NAME
 ```
 
 To test out the online enpoint, run:
